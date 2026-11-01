@@ -1,0 +1,16 @@
+
+```html
+<input type="file" id="dropTarget" multiple dragdrop onDragover="handleDragover(event)"
+onDrop="handleDrop(event)">
+```
+
+```javascript
+function handleDragover(event) {
+  event.preventDefault();
+}
+
+function handleDrop(event) {
+  event.preventDefault();
+  // Process the dropped files here
+}
+```
